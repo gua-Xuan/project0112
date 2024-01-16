@@ -1,0 +1,20 @@
+ npm --version
+ npm i @vue/cli -g 
+vue create project1(vue ui圖形)
+npm run build 打包
+npm i serve -g 安裝 用於暫時執行打包文件
+serve <目標目錄>
+
+
+vue.config.js文件介紹 CLI用
+
+vue 組件化開發
+
+prop: 就是子組件用來接收父組件設置的地方
+在App.vue html上設置子組件 並攜帶參數
+可到子組件  props中 ：
+var_name：{
+    type : [],
+    default:,
+    required:true/false(要求父組件必須傳值，沒傳會在控制台報錯)
+}
